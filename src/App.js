@@ -115,9 +115,9 @@ const App = () => {
     <Suspense
       fallback={
         <div className="col text-center p-5">
-          __ Ranju
+          __ Banglar
           <LoadingOutlined />
-          BD __
+          Bazar __
         </div>
       }
     >

@@ -11,7 +11,6 @@ import { Link } from "react-router-dom";
 import { EditOutlined, DeleteOutlined } from "@ant-design/icons";
 import CategoryForm from "../../../components/forms/CategoryForm";
 import LocalSearch from "../../../components/forms/LocalSearch";
-import Sidebar from "../../../components/sidebar/Sidebar";
 
 const CategoryCreate = () => {
   const { user } = useSelector((state) => ({ ...state }));
@@ -75,7 +74,7 @@ const CategoryCreate = () => {
     <div className="container-fluid">
       <div className="row">
         <div className="col-md-2">
-          <Sidebar />
+          <AdminNav />
         </div>
         <div className="col">
           {loading ? (

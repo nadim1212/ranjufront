@@ -65,47 +65,64 @@ const Home = () => {
 
   <div class="slider-container has-scrollbar">
 
-  <div class="slider-item">
+    <div class="slider-item">
 
-<img src="./assets/images/banner-1.jpg" alt="women's latest fashion sale" class="banner-img"/>
+      <img src="./assets/images/banner-1.jpg" alt="women's latest fashion sale" class="banner-img"/>
 
-<div class="banner-content">
+      <div class="banner-content">
 
-  <p class="banner-subtitle">Trending item</p>
+        <p class="banner-subtitle">Trending item</p>
 
-  <h2 class="banner-title">Pattern Paper Roll Brown</h2>
+        <h2 class="banner-title">IPAD MINI</h2>
 
-  <p class="banner-text">
-    GET 20% Flat discount
-  </p>
+        <p class="banner-text">
+          GET 20% Flat discount
+        </p>
 
-  <a href="#" class="banner-btn">Shop now</a>
+        <a href="#" class="banner-btn">Shop now</a>
 
-</div>
+      </div>
 
-</div>
+    </div>
 
-<div class="slider-item">
+    <div class="slider-item">
 
-<img src="./assets/images/banner-2.jpg" alt="modern sunglasses" class="banner-img"/>
+      <img src="./assets/images/banner-2.jpg" alt="modern sunglasses" class="banner-img"/>
 
-<div class="banner-content">
+      <div class="banner-content">
 
-<p class="banner-subtitle">Trending item</p>
+      <p class="banner-subtitle">Trending item</p>
 
-<h2 class="banner-title">Auto Number Sticker </h2>
+<h2 class="banner-title">Goggle Home </h2>
 
 <p class="banner-text">
-GET 20% Flat discount
+  GET 20% Flat discount
 </p>
 
-  <a href="#" class="banner-btn">Shop now</a>
+        <a href="#" class="banner-btn">Shop now</a>
 
-</div>
+      </div>
 
-</div>
+    </div>
 
-   
+    <div class="slider-item">
+
+      <img src="./assets/images/banner-1.jpg" alt="new fashion summer sale" class="banner-img"/>
+
+      <div class="banner-content">
+
+      <p class="banner-subtitle">Trending item</p>
+
+<h2 class="banner-title">Airpods</h2>
+
+<p class="banner-text">
+  GET 20% Flat discount
+</p>
+        <a href="#" class="banner-btn">Shop now</a>
+
+      </div>
+
+    </div>
 
   </div>
 
@@ -115,10 +132,6 @@ GET 20% Flat discount
         Categories
       </h2>
       <CategoryList />
-      <h2 className="text-center p-3 mt-5 mb-5 display-4 jumbotron ">
-      Sub Categories
-      </h2>
-      <SubList />
       <h2 className="text-center p-3 mt-5 mb-5 display-4">
         New Arrivals
       </h2>
@@ -142,15 +155,15 @@ GET 20% Flat discount
           </li>
 
           <li class="footer-nav-item">
-            <a href="#" class="footer-nav-link">Spray Way</a>
+            <a href="#" class="footer-nav-link">Electronics</a>
           </li>
 
           <li class="footer-nav-item">
-            <a href="#" class="footer-nav-link">Blitz</a>
+            <a href="#" class="footer-nav-link">fashion</a>
           </li>
 
           <li class="footer-nav-item">
-            <a href="#" class="footer-nav-link">Neddles</a>
+            <a href="#" class="footer-nav-link">Accessories</a>
           </li>
 
           <li class="footer-nav-item">
@@ -264,7 +277,7 @@ GET 20% Flat discount
               <ion-icon name="call-outline"></ion-icon>
             </div>
 
-            <a href="tel:+607936-8058" class="footer-nav-link">+8801939307030</a>
+            <a href="tel:+607936-8058" class="footer-nav-link">+880811216163</a>
           </li>
 
           <li class="footer-nav-item flex">
@@ -272,7 +285,7 @@ GET 20% Flat discount
               <ion-icon name="mail-outline"></ion-icon>
             </div>
 
-            <a href="" class="footer-nav-link"> ranju@ranjuenterprise.com</a>
+            <a href="" class="footer-nav-link"> banglarbazarteam@gmail.com</a>
           </li>
 
         </ul>
@@ -326,7 +339,7 @@ GET 20% Flat discount
         <img src="./assets/images/payment.png" alt="payment method" class="payment-img"/>
 
         <p class="copyright">
-          Copyright &copy; <a href="#">Ranju BD</a> all rights reserved.
+          Copyright &copy; <a href="#">Banglar Bazar</a> all rights reserved.
         </p>
 
       </div>

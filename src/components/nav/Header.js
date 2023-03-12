@@ -72,7 +72,7 @@ const Header = () => {
             </div>
 
             <Drawer
-              title={"Ranju BD"}
+              title={"Banglar Bazar"}
               placement="right"
               closable={true}
               onClose={showDrawer}

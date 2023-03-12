@@ -7,7 +7,6 @@ import ProductCreateForm from "../../../components/forms/ProductCreateForm";
 import { getCategories, getCategorySubs } from "../../../functions/category";
 import FileUpload from "../../../components/forms/FileUpload";
 import { LoadingOutlined } from "@ant-design/icons";
-import Sidebar from "../../../components/sidebar/Sidebar";
 
 /**
  * EASY WAY TO RE-POPULATE SUBS IF USER SELECT ANOTHER CATEGORY??
@@ -103,7 +102,7 @@ const ProductCreate = () => {
     <div className="container-fluid">
       <div className="row">
         <div className="col-md-2">
-          <Sidebar />
+          <AdminNav />
         </div>
 
         <div className="col-md-10">

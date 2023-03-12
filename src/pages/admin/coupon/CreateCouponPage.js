@@ -9,7 +9,7 @@ import {
 } from "../../../functions/coupon";
 import "react-datepicker/dist/react-datepicker.css";
 import { DeleteOutlined } from "@ant-design/icons";
-import Sidebar from "../../../components/sidebar/Sidebar";
+import AdminNav from "../../../components/nav/AdminNav";
 
 const CreateCouponPage = () => {
   const [name, setName] = useState("");
@@ -60,7 +60,7 @@ const CreateCouponPage = () => {
     <div className="container-fluid">
       <div className="row">
         <div className="col-md-2">
-          <Sidebar />
+          <AdminNav />
         </div>
         <div className="col-md-10">
           {loading ? (

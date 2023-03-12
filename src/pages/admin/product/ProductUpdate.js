@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import AdminNav from "../../../components/nav/AdminNav";
 import { toast } from "react-toastify";
 import { useSelector } from "react-redux";
 import { getProduct, updateProduct } from "../../../functions/product";
@@ -6,7 +7,6 @@ import { getCategories, getCategorySubs } from "../../../functions/category";
 import FileUpload from "../../../components/forms/FileUpload";
 import { LoadingOutlined } from "@ant-design/icons";
 import ProductUpdateForm from "../../../components/forms/ProductUpdateForm";
-import Sidebar from "../../../components/sidebar/Sidebar";
 
 const initialState = {
   title: "",
@@ -118,7 +118,7 @@ const ProductUpdate = ({ match, history }) => {
     <div className="container-fluid">
       <div className="row">
         <div className="col-md-2">
-          <Sidebar />
+          <AdminNav />
         </div>
 
         <div className="col-md-10">

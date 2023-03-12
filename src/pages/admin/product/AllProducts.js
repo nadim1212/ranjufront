@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
+import AdminNav from "../../../components/nav/AdminNav";
 import { getProductsByCount } from "../../../functions/product";
 import AdminProductCard from "../../../components/cards/AdminProductCard";
 import { removeProduct } from "../../../functions/product";
 import { useSelector } from "react-redux";
 import { toast } from "react-toastify";
-import Sidebar from "../../../components/sidebar/Sidebar";
 
 const AllProducts = () => {
   const [products, setProducts] = useState([]);
@@ -49,7 +49,7 @@ const AllProducts = () => {
     <div className="container-fluid">
       <div className="row">
         <div className="col-md-2">
-          <Sidebar />
+          <AdminNav />
         </div>
 
         <div className="col">

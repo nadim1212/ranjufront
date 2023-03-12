@@ -44,12 +44,12 @@ const Sidebar = () => {
             </li>
          
          
-            <li>
+            {/* <li>
             <Link to="/admin/products" style={{ textDecoration: "none" }}>
               <StoreIcon className="icon" />
               <span>Product Stock</span>
               </Link>
-            </li>
+            </li> */}
          
         
           <p className="title">Category Management</p>
@@ -74,7 +74,7 @@ const Sidebar = () => {
             <span>Coupon</span>
             </Link>
           </li>
-          <p className="title">USER MANAGEMENT</p>
+          {/* <p className="title">USER MANAGEMENT</p>
           <li>
             <AccountCircleOutlinedIcon className="icon" />
             <span>All Users</span>
@@ -82,7 +82,7 @@ const Sidebar = () => {
           <li>
             <AccountCircleOutlinedIcon className="icon" />
             <span>Users Role</span>
-          </li>
+          </li> */}
           <li>
             <ExitToAppIcon className="icon" />
             <span>Logout</span>
