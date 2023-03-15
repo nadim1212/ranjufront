@@ -28,7 +28,6 @@ const RightMenu = ({ mode }) => {
        
       <Menu.Item key="about"><Link to="/shop">Shop</Link></Menu.Item>
       <Menu.Item key="contact">Contact Us</Menu.Item>
-      <Menu.Item key="contact">Become a Reseller</Menu.Item>
       <Item key="cart" icon={<ShoppingCartOutlined />}>
         <Link to="/cart">
           <Badge count={cart.length} offset={[9, 0]}>
